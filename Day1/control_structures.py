@@ -1,3 +1,5 @@
+# Control structures let you control the flow of your code — like making decisions or repeating actions. Eg 'if, elif, else', 'loop'
+
 # if-else
 score = 85
 if score > 90:
