@@ -1,6 +1,4 @@
-# Data types tell Python what kind of data is being stored in a variable — like whether it’s a number, text, or something else. Eg 'int', 'float', ''str
-
-
+# Data types tell Python what kind of data is being stored in a variable — like whether it’s a number, text, or something else. Eg 'int', 'float', 'str'
 
 # List
 fruits = ["apple", "banana", "cherry"]
