@@ -1,0 +1,84 @@
+# Django Bootcamp Progress 🚀
+
+Welcome to my Django Bootcamp journey! This repository tracks my daily progress, learnings, and implementations.
+
+---
+
+## 📅 Day 1: Python Basics
+
+### ✅ Topics Covered:
+- Variables and Data Types
+- Control Structures (if-else, loops)
+- Error Handling (e.g., `ZeroDivisionError`, `try-except-finally`)
+
+### 📂 Work Done:
+- Practiced variable declaration and type checking
+- Wrote simple Python scripts with loops and conditionals
+- Explored exceptions and handled common errors
+
+### 📎 Repo:
+[Day 1 Code](https://github.com/Silambazhagii/Python_Bootcamp)
+
+---
+
+## 📅 Day 2: Python Functions and Lists
+
+### ✅ Topics Covered:
+- Functions: `def`, parameters, return values
+- Lists and List Operations
+- Iterating through lists and using loops
+
+### 📂 Work Done:
+- Created functions to perform calculations
+- Implemented examples using lists
+- Practiced modular code and input/output
+
+### 📎 Repo:
+[Day 2 Code](https://github.com/Silambazhagii/Python_Bootcamp)
+
+---
+
+## 📅 Day 3: Django Setup & Templates
+
+### ✅ Topics Covered:
+- Django Installation using `pip3`
+- Project and App Structure
+- Views and URL Routing
+- Templates and Rendering HTML
+
+### 📂 Work Done:
+- Created Django project `mysite` and app `myapp`
+- Set up views and mapped URLs
+- Connected templates folder via `DIRS` in `settings.py`
+- Rendered basic HTML pages with variables
+
+### 📎 Repo:
+[Day 3 Code](https://github.com/Silambazhagii/Python_Bootcamp)
+
+---
+
+## 📅 Day 4: Django Models & Admin Panel
+
+### ✅ Topics Covered:
+- Django Models and Migrations
+- Admin Panel Customization
+- Creating Superuser
+- Adding and Viewing Model Entries
+
+### 📂 Work Done:
+- Defined models for `Course` and `Student`
+- Ran migrations using `makemigrations` and `migrate`
+- Registered models in `admin.py`
+- Created and logged into admin panel
+- Added and managed data via admin interface
+
+### 📎 Repo:
+[Day 4 Code](https://github.com/Silambazhagii/Python_Bootcamp)
+
+---
+
+## 🛠️ Setup Instructions
+
+```bash
+pip3 install django
+python3 manage.py runserver
