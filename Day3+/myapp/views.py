@@ -1,15 +1,18 @@
-from django.shortcuts import render
-from .forms import NameForm
+from django.shortcuts import render, redirect
+from .forms import ContactForm
 
 def home(request):
     return render(request, 'home.html')
 
-def get_name(request):
-    if request.method == "POST":
-        form = NameForm(request.POST)
+def contact_view(request):
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
         if form.is_valid():
-            name = form.cleaned_data['your_name']
-            return render(request, 'thanks.html', {'name': name})
+            form.save()
+            return redirect('thank_you')  # after successful form submission
     else:
-        form = NameForm()
-    return render(request, 'name.html', {'form': form})
+        form = ContactForm()
+    return render(request, 'contact.html', {'form': form})
+
+def thank_you_view(request):
+    return render(request, 'thank_you.html')
